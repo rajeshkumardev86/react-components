@@ -1,6 +1,7 @@
 import React from "react";
 import Accordian from "./components/Accordian";
 import RandomColor from "./components/RandomColor";
+import StarRating from "./components/StarRating/StarRating";
 // import { accordianData } from "../src/assets/data.js";
 
 export default function App() {
@@ -9,7 +10,9 @@ export default function App() {
       {/* Accordian Component */}
       {/* <Accordian data={accordianData} isMultiple={false} /> */}
       {/* RandomColor Component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+      {/* Star Component */}
+      <StarRating length={5} />
     </div>
   );
 }
